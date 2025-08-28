@@ -10,3 +10,7 @@ management:
     web:
       exposure:
         include: health,info
+
+# Any custom configs for this service
+user:
+  default-role: CUSTOMER
