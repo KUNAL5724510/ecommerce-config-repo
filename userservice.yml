@@ -5,7 +5,7 @@ spring:
   application:
     name: userservice
   datasource:
-    url: jdbc:mysql://localhost:3306/ecommerce-db
+    url: jdbc:mysql://localhost:3306/ecommerce
     username: root
     password: 18081998
     driver-class-name: com.mysql.cj.jdbc.Driver
