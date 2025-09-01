@@ -3,10 +3,22 @@ server:
 
 spring:
   application:
-    name: categoryservice
+    name: userservice
+  datasource:
+    url: jdbc:mysql://localhost:3306/ecommerce
+    username: root
+    password: 18081998
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
 
 management:
   endpoints:
     web:
       exposure:
         include: health,info
+
+user:
+  default-role: CUSTOMER
