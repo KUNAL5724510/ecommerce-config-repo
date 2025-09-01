@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: userservice
+    name: categoryervice
   datasource:
     url: jdbc:mysql://localhost:3306/ecommerce
     username: root
@@ -21,4 +21,4 @@ management:
         include: health,info
 
 user:
-  default-role: CUSTOMER
+  default-role: Employee
