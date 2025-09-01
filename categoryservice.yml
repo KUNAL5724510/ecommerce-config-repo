@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: categoryervice
+    name: categoryservice
   datasource:
     url: jdbc:mysql://localhost:3306/ecommerce
     username: root
