@@ -22,3 +22,8 @@ management:
 
 user:
   default-role: CUSTOMER
+
+
+jwt:
+  secret: secretkey@ECOMMERCE
+  expiration: 900000
