@@ -20,5 +20,3 @@ management:
       exposure:
         include: health,info
 
-user:
-  default-role: CUSTOMER
